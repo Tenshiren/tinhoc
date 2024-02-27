@@ -75,7 +75,7 @@
             <div class="container-xxl bg-primary hero-header">
                 <div class="container">
                     <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 text-center text-lg-start">
+                        <div class="col-lg-6 text-center ">
                             <h1 class="text-white mb-4 animated zoomIn">Chào mừng đến với lớp Tin học
                             </h1>
                             <p class="text-white pb-3 animated zoomIn">Học phần này sẽ cung cấp kiến thức cơ bản về Máy
@@ -100,7 +100,7 @@
             <div class="container">
                 <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <div class="d-inline-block border rounded-pill text-primary px-4 mb-3" id="noidung">Nội dung</div>
-                    <h2 class="mb-5">Gồm 6 mục sau</h2>
+                    <!-- <h2 class="mb-5">Gồm 6 mục sau</h2> -->
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -131,7 +131,7 @@
                                 <div class="service-icon">
                                     <i class="fa fa-book fa-2x"></i>
                                 </div>
-                                <a class="service-btn" href="" href="#" onclick="openLink('pages/bai-giang');">
+                                <a class="service-btn" href="#" onclick="openLink('pages/bai-giang');">
                                     <i class="fa fa-link fa-2x"></i>
                                 </a>
                             </div>
@@ -149,14 +149,16 @@
                                 <div class="service-icon">
                                     <i class="fa fa-pen fa-2x"></i>
                                 </div>
-                                <a class="service-btn" href="">
+                                <a class="service-btn" href="#" onclick="openLink('assignments');">
                                     <i class="fa fa-link fa-2x"></i>
                                 </a>
                             </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">Bài tập</h5>
-                                <span>Các bài tập được đưa ra mỗi buổi học</span>
-                            </div>
+                            <a href="#" onclick="openLink('assignments');">
+                                <div class="p-5">
+                                    <h5 class="mb-3">Bài tập</h5>
+                                    <span>Các bài tập được đưa ra mỗi buổi học</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -165,14 +167,16 @@
                                 <div class="service-icon">
                                     <i class="fa fa-list fa-2x"></i>
                                 </div>
-                                <a class="service-btn" href="">
+                                <a class="service-btn" href="#" onclick="openLink('modules');">
                                     <i class="fa fa-link fa-2x"></i>
                                 </a>
                             </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">Modules</h5>
-                                <span>Sắp xếp nội dung học phần theo từng buổi học</span>
-                            </div>
+                            <a href="#" onclick="openLink('modules');">
+                                <div class="p-5">
+                                    <h5 class="mb-3">Modules</h5>
+                                    <span>Sắp xếp nội dung học phần theo từng buổi học</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -197,14 +201,16 @@
                                 <div class="service-icon">
                                     <i class="fa fa-house-damage fa-2x"></i>
                                 </div>
-                                <a class="service-btn" href="">
+                                <a class="service-btn" href="https://zalo.me/g/vezqqb909">
                                     <i class="fa fa-link fa-2x"></i>
                                 </a>
                             </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">Zalo Lớp</h5>
-                                <span>Link nhóm Zalo của các lớp</span>
-                            </div>
+                            <a href="https://zalo.me/g/vezqqb909">
+                                <div class="p-5">
+                                    <h5 class="mb-3">Zalo Lớp</h5>
+                                    <span>Link nhóm Zalo của các lớp</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -220,31 +226,29 @@
                     <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Giảng viên</div>
                     <h2 class="mb-5">Thông tin giảng viên</h2>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row g-4" style="justify-content: center;">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
+                    </div> -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item">
                             <h5>ThS. Đỗ Phúc Thịnh</h5>
                             <p class="mb-4">Giảng viên Khoa Công nghệ thông tin</p>
-                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-50 mb-4" src="img/team-1.jpg" alt="">
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                <a class="btn btn-square text-primary bg-white m-1"
+                                    href="https://www.facebook.com/phucthinhdo.dntu"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1" href="https://zalo.me/0847088880"><i
+                                        class="fa fa-phone"></i></a>
+                                <a class="btn btn-square text-primary bg-white m-1"
+                                    href="https://scholar.google.com/citations?user=3NsJ--wAAAAJ"><i
+                                        class="fab fa-google-plus"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
 
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
